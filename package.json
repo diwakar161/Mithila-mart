@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a website for daily products ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "ndemon server.js"
+  },
+  "keywords": [
+    "Mithila",
+    "Mart"
+  ],
+  "author": "Diwakar kumar jha",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^2.2.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.1",
+    "validator": "^13.12.0"
+  }
+}
